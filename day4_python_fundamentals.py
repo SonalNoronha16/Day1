@@ -74,6 +74,7 @@ print(numbers)
 numbers.add(5)
 print(numbers)
 """
+"""
 A = {1, 2, 3}
 B = {3, 4, 5}
 
@@ -81,3 +82,48 @@ print(A | B)
 print(A & B)
 
 print(3 in A)
+"""
+"""
+#The Personal Contact Book
+contacts = {
+    "Asha": "9876543210",
+    "Rahul": "9123456780",
+    "Meena": "9988776655"
+}
+
+contacts["Vikram"] = "9012345678"     
+contacts["Rahul"] = "9000000000"      
+
+print("Lookup Asha:", contacts.get("Asha"))
+print("Lookup John:", contacts.get("John", "Contact not found"))
+
+print("\nContact List:")
+for name, number in contacts.items():
+    print(f"Contact: {name} | Phone: {number}")
+"""
+"""
+#The Duplicate Cleaner
+raw_logs = ["ID01", "ID02", "ID01", "ID05", "ID02", "ID08", "ID01"]
+
+unique_users = set(raw_logs)
+
+print("Is ID05 a unique visitor?", "ID05" in unique_users)
+
+print("\nOriginal log count:", len(raw_logs))
+print("Unique user count:", len(unique_users))
+
+print("\nUnique User IDs:", unique_users)
+"""
+
+#The Interest Matcher
+friend_a = {"Python", "Cooking", "Hiking", "Movies"}
+friend_b = {"Hiking", "Gaming", "Photography", "Python"}
+
+common_interests = friend_a & friend_b     
+all_interests = friend_a | friend_b         
+unique_to_a = friend_a - friend_b           
+
+print("Shared Interests:", common_interests)
+print("All Interests:", all_interests)
+print("Unique to Friend A:", unique_to_a)
+
