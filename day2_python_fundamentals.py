@@ -36,7 +36,6 @@ num1 = input("Enter number: ")
 num2 = input("Enter number: ")
 print(int(num1) + int(num2))   
 
-"""
 ##The Age in 30 Calculator
 
 name = input("Enter your name: ")
@@ -46,8 +45,7 @@ age = int(age)
 new_age = age + 4       
 
 print(f"Hey {name}, you will be {new_age} years old in 2030!")
-"""
-"""
+
 ##The Bill Splitter
 
 total_bill = float(input("Enter the total bill amount: "))
@@ -61,8 +59,7 @@ print(f"Total Bill: {total_bill}. Each person pays: {share_per_person}")
 print("Data type of total_bill:", type(total_bill))
 print("Data type of num_people:", type(num_people))
 print("Data type of share_per_person:", type(share_per_person))
-"""
-"""
+
 ##The Raw Data Formatter
 
 item_name = "Laptop"     
@@ -75,4 +72,4 @@ print("Item:", item_name, ", Qty:", quantity, ", Price:", price, ", Available:",
 total_cost = quantity * price
 
 print("Total Cost:", total_cost)
-"""
+
