@@ -1,4 +1,3 @@
-
 #The Trend Tracker
 import matplotlib.pyplot as plt
 
